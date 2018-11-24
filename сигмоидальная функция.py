@@ -6,3 +6,5 @@ plt.plot(x, f)
 plt.xlabel('x')
 plt.ylabel('f(x)')
 plt.show()
+
+input('press enter..')
