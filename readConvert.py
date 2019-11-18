@@ -9,8 +9,6 @@ for _ in fl:
 '''file structure:
 2018.08.16,12:00,1.2703,1.2755,1.2697,1.2722,2021
   date            time     low    high    open   close  vol
-    0                   1         2         3           4         5       6       :  всего 7
+    0                1        2         3           4         5       6       :  всего 7
 '''
 print('I got it !!! ')
-
-from mainMod import a
