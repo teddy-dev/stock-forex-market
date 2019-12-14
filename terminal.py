@@ -10,8 +10,8 @@ import numpy as np
 ##     15,7,24,19 ]
 with open ('GBPUSD240.csv', 'r') as f:
     fl = f.readlines()
-date, time, op, high, low, cl,  vol = [ [] for _ in range(7) ]
-elem = [ date, time, op, high, low, cl,  vol ]
+date, time, op, high, low, cl,  vol = [[] for _ in range(7)]
+elem = [date, time, op, high, low, cl,  vol]
 for _ in fl:
     string = _.split(',')
     [elem[i].append(string[i]) for i in range(len(elem))]
@@ -72,7 +72,7 @@ print(
 '''Выводы на будущее:
 окно сделать со скроллами, или пока уменьшить диапазон'''
 )
-input('press enter')
+input('press enter..')
     
     
     
